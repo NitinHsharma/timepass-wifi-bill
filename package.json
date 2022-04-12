@@ -1,8 +1,24 @@
 {
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.3",
-    "html-pdf": "^3.0.1",
-    "pug": "^3.0.2"
-  }
+    "express": "^4.17.3"
+  },
+  "name": "bill",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NitinHsharma/timepass-wifi-bill.git"
+  },
+  "author": "Nitin Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NitinHsharma/timepass-wifi-bill/issues"
+  },
+  "homepage": "https://github.com/NitinHsharma/timepass-wifi-bill#readme",
+  "description": "Time pass app to create wifi bills for WFH"
 }
